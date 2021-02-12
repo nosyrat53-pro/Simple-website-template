@@ -1,0 +1,103 @@
+.nav-item{
+    margin: auto .75rem;
+}
+
+.nav-item .nav-link{
+    color: rgba(0, 0, 0, 0.651)    ;
+    transition: all .15s linear;
+}
+
+.nav-item .nav-link:hover{
+    color: black;
+    font-weight: 600;
+}
+
+.head{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.head .title{
+    padding-top: 2rem;
+    font-family: cursive;
+    font-weight: 800;
+}
+
+.head .text{
+    padding-top: 1.2rem;
+    font-size: 1.1rem;
+    font-family: cursive;
+    line-height: 1.5;
+}
+
+.first{
+    width: 45%;
+}
+
+.friend , .targeting , .ideas , .operations{
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    min-height: 200px;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+.friend i , .targeting i , .ideas i , .operations i{
+    margin-top: .5rem;
+    font-size: 2rem;
+    color: #c7511d;
+}
+
+.friend h4 , .targeting h4 , .ideas h4 , .operations h4{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.friend p , .targeting p , .ideas p , .operations p{
+    margin-top: 1rem;
+}
+
+.image{
+    position: relative;
+    width: 45% ;
+    background: url('https://images03.nicepage.io/c461c07a441a5d220e8feb1a/67daa8a9763b517f8226ee06/16028.jpg');
+    background-size: cover;
+    height: auto;
+    border-top-left-radius: 5px;
+}
+
+.image p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 1px solid #c7511d;
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 3px 5px 15px black;
+    padding: .5rem .5rem;
+    backdrop-filter: blur(6px);
+}
+
+footer{
+    background: #222;
+    color: white;
+}
+
+footer a{
+    color: #c7511d;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+footer a:hover{
+    color: white;
+}
+
